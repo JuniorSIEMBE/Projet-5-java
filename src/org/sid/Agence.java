@@ -38,6 +38,7 @@ public class Agence {
 	}
 	
 	public void afficherClients() {
+		//Parcours de la liste
 		//Première méthode
 		for(Client c: clients) {
 			System.out.println(c.toString());
